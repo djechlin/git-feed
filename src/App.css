@@ -1,0 +1,114 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: poppins, verdana;
+}
+
+body {
+  background-color: #0f323f;
+  color: white;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+  padding: 50px;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+tr {
+  border-bottom: 1px solid #a8a8a8;
+}
+
+td {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+td:first-child {
+  padding-left: 20px;
+}
+
+td:last-child {
+  padding-right: 20px;
+}
+
+.date-column {
+  font-weight: bold;
+  text-align: left;
+}
+
+.message-column {
+  color: #10757b;
+  text-align: left;
+}
+
+.message-column a {
+  color: inherit;
+}
+
+.author-column {
+  text-align: left;
+}
+
+.load-more-button {
+  background-color: #328287;
+  color: white;
+  margin-top: 15px;
+}
+
+input {
+  font-size: 'bigger';
+}
+
+.submit-button {
+  background-color: #328287;
+  color: white;
+  margin-top: 10px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
